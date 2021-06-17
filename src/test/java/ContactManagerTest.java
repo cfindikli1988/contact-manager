@@ -111,6 +111,7 @@ public class ContactManagerTest {
         }
 
         @DisplayName("CSV Source Case - Phone Number should match the required Format")
+        @Disabled
         @ParameterizedTest
         @CsvSource({"0123456789", "0123456798", "0123456897"})
         public void shouldTestPhoneNumberFormatUsingCSVSource(String phoneNumber) {
@@ -120,8 +121,9 @@ public class ContactManagerTest {
         }
 
         @DisplayName("CSV File Source Case - Phone Number should match the required Format")
+        @Disabled
         @ParameterizedTest
-        @CsvFileSource(resources = "/data.csv")
+        @CsvFileSource(resources = "contact-manager/src/test/resources/data.csv")
         public void shouldTestPhoneNumberFormatUsingCSVFileSource(String phoneNumber) {
             contactManager.addContact("John", "Doe", phoneNumber);
             assertFalse(contactManager.getAllContacts().isEmpty());
