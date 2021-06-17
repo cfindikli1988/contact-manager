@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ContactManagerTest
 -------------------------------------------------------------------------------
-Tests run: 25, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.355 s - in ContactManagerTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.274 s - in ContactManagerTest

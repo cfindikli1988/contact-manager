@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ContactManagerTest" time="0.355" tests="25" errors="0" skipped="2" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ContactManagerTest" time="0.274" tests="25" errors="0" skipped="2" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="TR"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/caglarfindikli/IdeaProjects/contact-manager/target/surefire/surefirebooter14313319543624927065.jar /Users/caglarfindikli/IdeaProjects/contact-manager/target/surefire 2021-06-17T15-43-04_250-jvmRun1 surefire5834699657487734071tmp surefire_015337336643545058322tmp"/>
+    <property name="sun.java.command" value="/Users/caglarfindikli/IdeaProjects/contact-manager/target/surefire/surefirebooter10070226669709039745.jar /Users/caglarfindikli/IdeaProjects/contact-manager/target/surefire 2021-06-17T15-46-02_957-jvmRun1 surefire12182638667333318776tmp surefire_013426279318580957980tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/caglarfindikli/IdeaProjects/contact-manager/target/test-classes:/Users/caglarfindikli/IdeaProjects/contact-manager/target/classes:/Users/caglarfindikli/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.0-M1/junit-jupiter-5.8.0-M1.jar:/Users/caglarfindikli/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.0-M1/junit-jupiter-api-5.8.0-M1.jar:/Users/caglarfindikli/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/caglarfindikli/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/caglarfindikli/.m2/repository/org/junit/platform/junit-platform-commons/1.8.0-M1/junit-platform-commons-1.8.0-M1.jar:/Users/caglarfindikli/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.0-M1/junit-jupiter-params-5.8.0-M1.jar:/Users/caglarfindikli/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.0-M1/junit-jupiter-engine-5.8.0-M1.jar:/Users/caglarfindikli/.m2/repository/org/junit/platform/junit-platform-engine/1.8.0-M1/junit-platform-engine-1.8.0-M1.jar:/Users/caglarfindikli/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.20/kotlin-stdlib-jdk8-1.4.20.jar:/Users/caglarfindikli/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.20/kotlin-stdlib-1.4.20.jar:/Users/caglarfindikli/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.20/kotlin-stdlib-common-1.4.20.jar:/Users/caglarfindikli/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/caglarfindikli/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.20/kotlin-stdlib-jdk7-1.4.20.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/caglarfindikli/IdeaProjects/contact-manager/target/surefire/surefirebooter14313319543624927065.jar"/>
+    <property name="surefire.real.class.path" value="/Users/caglarfindikli/IdeaProjects/contact-manager/target/surefire/surefirebooter10070226669709039745.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="16.0.1+0"/>
@@ -54,17 +54,17 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="shouldCreateContactOnMAC" classname="ContactManagerTest" time="0.032"/>
-  <testcase name="shouldTestPhoneNumberFormatUsingMethodSource{String}[1]" classname="ContactManagerTest" time="0.025"/>
-  <testcase name="shouldTestPhoneNumberFormatUsingMethodSource{String}[2]" classname="ContactManagerTest" time="0.003"/>
-  <testcase name="shouldTestPhoneNumberFormatUsingMethodSource{String}[3]" classname="ContactManagerTest" time="0.003"/>
+  <testcase name="shouldCreateContactOnMAC" classname="ContactManagerTest" time="0.024"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingMethodSource{String}[1]" classname="ContactManagerTest" time="0.031"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingMethodSource{String}[2]" classname="ContactManagerTest" time="0.001"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingMethodSource{String}[3]" classname="ContactManagerTest" time="0.001"/>
   <testcase name="shouldBeDisabled" classname="ContactManagerTest" time="0">
     <skipped message="public void ContactManagerTest.shouldBeDisabled() is @Disabled"/>
   </testcase>
-  <testcase name="shouldThrowRuntimeExceptionWhenPhoneNumberIsNull" classname="ContactManagerTest" time="0.005"/>
-  <testcase name="shouldTestPhoneNumberFormat" classname="ContactManagerTest" time="0.002"/>
-  <testcase name="shouldThrowRuntimeExceptionWhenFirstNameIsNull" classname="ContactManagerTest" time="0.003"/>
-  <testcase name="shouldThrowRuntimeExceptionWhenLastNameIsNull" classname="ContactManagerTest" time="0.004"/>
+  <testcase name="shouldThrowRuntimeExceptionWhenPhoneNumberIsNull" classname="ContactManagerTest" time="0.002"/>
+  <testcase name="shouldTestPhoneNumberFormat" classname="ContactManagerTest" time="0.001"/>
+  <testcase name="shouldThrowRuntimeExceptionWhenFirstNameIsNull" classname="ContactManagerTest" time="0.001"/>
+  <testcase name="shouldThrowRuntimeExceptionWhenLastNameIsNull" classname="ContactManagerTest" time="0.002"/>
   <testcase name="shouldTestContactCreationOnDEV" classname="ContactManagerTest" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
 	at ContactManagerTest.shouldTestContactCreationOnDEV(ContactManagerTest.java:75)
@@ -73,19 +73,19 @@
 Should Execute After Each Test
 ]]></system-out>
   </testcase>
-  <testcase name="shouldCreateContact" classname="ContactManagerTest" time="0.003"/>
+  <testcase name="shouldCreateContact" classname="ContactManagerTest" time="0.001"/>
   <testcase name="shouldTestPhoneNumberFormatUsingCSVFileSource{String}[1]" classname="ContactManagerTest$ParameterizedTests" time="0.001"/>
-  <testcase name="shouldTestPhoneNumberFormatUsingCSVFileSource{String}[2]" classname="ContactManagerTest$ParameterizedTests" time="0.002"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingCSVFileSource{String}[2]" classname="ContactManagerTest$ParameterizedTests" time="0.001"/>
   <testcase name="shouldTestPhoneNumberFormatUsingCSVFileSource{String}[3]" classname="ContactManagerTest$ParameterizedTests" time="0.001"/>
   <testcase name="shouldTestPhoneNumberFormatUsingValueSource{String}[1]" classname="ContactManagerTest$ParameterizedTests" time="0.001"/>
   <testcase name="shouldTestPhoneNumberFormatUsingValueSource{String}[2]" classname="ContactManagerTest$ParameterizedTests" time="0.001"/>
-  <testcase name="shouldTestPhoneNumberFormatUsingValueSource{String}[3]" classname="ContactManagerTest$ParameterizedTests" time="0.005"/>
-  <testcase name="shouldTestPhoneNumberFormatUsingCSVSource{String}[1]" classname="ContactManagerTest$ParameterizedTests" time="0.004"/>
-  <testcase name="shouldTestPhoneNumberFormatUsingCSVSource{String}[2]" classname="ContactManagerTest$ParameterizedTests" time="0.003"/>
-  <testcase name="shouldTestPhoneNumberFormatUsingCSVSource{String}[3]" classname="ContactManagerTest$ParameterizedTests" time="0.003"/>
-  <testcase name="shouldTestContactCreationRepeatedly[1]" classname="ContactManagerTest$RepeatedTests" time="0.003"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingValueSource{String}[3]" classname="ContactManagerTest$ParameterizedTests" time="0.001"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingCSVSource{String}[1]" classname="ContactManagerTest$ParameterizedTests" time="0.003"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingCSVSource{String}[2]" classname="ContactManagerTest$ParameterizedTests" time="0.004"/>
+  <testcase name="shouldTestPhoneNumberFormatUsingCSVSource{String}[3]" classname="ContactManagerTest$ParameterizedTests" time="0.004"/>
+  <testcase name="shouldTestContactCreationRepeatedly[1]" classname="ContactManagerTest$RepeatedTests" time="0.004"/>
   <testcase name="shouldTestContactCreationRepeatedly[2]" classname="ContactManagerTest$RepeatedTests" time="0.003"/>
-  <testcase name="shouldTestContactCreationRepeatedly[3]" classname="ContactManagerTest$RepeatedTests" time="0.002"/>
-  <testcase name="shouldTestContactCreationRepeatedly[4]" classname="ContactManagerTest$RepeatedTests" time="0.004"/>
+  <testcase name="shouldTestContactCreationRepeatedly[3]" classname="ContactManagerTest$RepeatedTests" time="0.001"/>
+  <testcase name="shouldTestContactCreationRepeatedly[4]" classname="ContactManagerTest$RepeatedTests" time="0.001"/>
   <testcase name="shouldTestContactCreationRepeatedly[5]" classname="ContactManagerTest$RepeatedTests" time="0.002"/>
 </testsuite>
